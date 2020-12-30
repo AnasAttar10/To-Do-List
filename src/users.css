@@ -1,0 +1,41 @@
+.items{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(138, 129, 129);
+}
+.items h2{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+.items .msg {
+   width: 90%;
+   margin: auto;
+   padding: 10px;
+   background-color: white ; 
+   border:2px solid orangered;
+   color: white; 
+}
+.items input[type=text]{
+    padding: 8px;
+    width: 70%;
+    margin:10px ;
+    margin-right:0px;
+    font-size: 18px;
+    border: 1px solid black;
+} 
+.items .btn_add{
+    padding: 8px;
+    width: 24%;
+    margin:10px ;
+    margin-left:0;
+    font-size: 18px;
+    background-color: rgb(58, 202, 58);
+    color: white;
+}
+.show_users{
+    background-color: rgb(230, 224, 224);
+    width: 98%;
+    margin: auto;
+}

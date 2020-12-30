@@ -1,0 +1,35 @@
+.AddItems{
+    width: 100%;    
+}
+.AddItems input[type = text],[type=number]{
+    font-size: 20px;
+    width: 35%;
+    padding: 10px;
+}
+.AddItems input[type = submit].btn-add ,.btn-delete{
+    width: 26%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-delete {
+    background-color: tomato;
+    margin:auto ;
+    display: block ;
+    width: 60%;
+    margin-top: 10px;
+    display: none;
+}
+
+.msg{
+    background-color: yellowgreen;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    display: none;
+}
+.active{
+    display: block ;
+}

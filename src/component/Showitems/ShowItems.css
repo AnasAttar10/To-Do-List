@@ -1,0 +1,43 @@
+.ShowItems{
+    width: 96%;
+    margin: auto;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    overflow: hidden;
+}
+.ShowItems span ,.user_name{
+    background-color: teal;
+    color: white;
+    width: 30%;
+    display: block;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    margin: 1px;
+}
+.ShowItems span:last-of-type{
+    background-color: tomato;
+    cursor: pointer;
+}
+.ShowItems span:last-of-type:hover{
+    background-color: black;
+    color:yellow;
+}
+.msg{
+    background-color: yellowgreen;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    display: none;
+}
+.active{
+    display: block ;
+}
+.ShowItems .user_name{
+    background-color: #333;
+    color: yellow;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
